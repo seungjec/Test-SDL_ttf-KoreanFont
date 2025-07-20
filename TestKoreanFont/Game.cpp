@@ -108,8 +108,8 @@ void Game::Update()
 {
     if (m_Print_On)
     {
-        SDL_Log("[%s] %s\n\n\n", "SDL_Log", m_text.c_str());
-        printf("[%s]  %s\n", "printf", m_text.c_str());
+        SDL_Log("[%s]\n%s\n\n\n", "SDL_Log", m_text.c_str());
+        printf("[%s]\n%s\n", "printf", m_text.c_str());
 
         m_Print_On = false;
     }
