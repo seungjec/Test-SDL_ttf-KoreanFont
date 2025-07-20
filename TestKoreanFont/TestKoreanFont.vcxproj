@@ -112,7 +112,7 @@
       <AdditionalDependencies>SDL3.lib;SDL3_image.lib;SDL3_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SolutionDir)assets $(OutDir)assets /i /e /y
+      <Command>xcopy $(ProjectDir)assets $(OutDir)assets /i /e /y
 xcopy $(SolutionDir)library\SDL3\lib\x64\SDL3.dll $(OutDir) /y
 xcopy $(SolutionDir)library\SDL3_image\lib\x64\SDL3_image.dll $(OutDir) /y
 xcopy $(SolutionDir)library\SDL3_ttf\lib\x64\SDL3_ttf.dll $(OutDir) /y</Command>
@@ -136,7 +136,7 @@ xcopy $(SolutionDir)library\SDL3_ttf\lib\x64\SDL3_ttf.dll $(OutDir) /y</Command>
       <AdditionalDependencies>SDL3.lib;SDL3_image.lib;SDL3_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(SolutionDir)assets $(OutDir)assets /i /e /y
+      <Command>xcopy $(ProjectDir)assets $(OutDir)assets /i /e /y
 xcopy $(SolutionDir)library\SDL3\lib\x64\SDL3.dll $(OutDir) /y
 xcopy $(SolutionDir)library\SDL3_image\lib\x64\SDL3_image.dll $(OutDir) /y
 xcopy $(SolutionDir)library\SDL3_ttf\lib\x64\SDL3_ttf.dll $(OutDir) /y</Command>

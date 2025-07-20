@@ -46,7 +46,7 @@ int Game::Initialize()
         return m_error;
     }
 
-    m_font = TTF_OpenFont("assets\\nanum-handwriting-flower-scent.ttf", 48);
+    m_font = TTF_OpenFont(".\\assets\\nanum-handwriting-flower-scent.ttf", 48);
     if (m_font == nullptr)
     {
         SDL_DestroyWindow(m_window);
